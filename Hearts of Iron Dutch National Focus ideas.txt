@@ -1,0 +1,37 @@
+Polderen (Manpower + industrial + great depression fix)
+recovering from the great depression (5 kanten voor economische groei)
+Fix provinces
+
+Description:
+Hello! Welcome to my dutch national focus mod! I hope you enjoy it and give me some feedback if needed! 
+
+Edit: Please tell me if you think the Provinces/States for Holland are as good as is, or if you want me to change them! I'm also not going to put a lot of effort on the Belgian states because i made them with an early annex of Belgium in mind. So tell me if i need to change anything!
+
+Currently added: 
+- the 11 provinces
+- Belgian provinces
+- starting national spirits 
+
+Going to be added: 
+- flavour 
+- more national spirits 
+- national focus tree 
+- more events 
+- localisation 
+- more states 
+- more generals
+- more admirals
+- etc...
+
+Changelog:
+0.1: 
+- restated the second part of the focus tree
+- added Fleet in Being to the Netherlands
+- added extra foci for the Industrial tree
+- some BHS stuff
+- added Netherlands Antilles
+
+0.2:
+- Zeeland is Middelburg now!
+- Namur is now Namen!
+- 
