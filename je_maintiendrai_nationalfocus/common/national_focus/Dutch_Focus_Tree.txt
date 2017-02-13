@@ -162,16 +162,45 @@ focus_tree = {
 		
 		completion_reward = {
 		    country_event = { id = HOL.Defense_line }
+		    country_event = { id = HOL.11 }
 		}
 	}
-
+	
+	focus = {
+		id = HOL_Ministry_Foreign
+		icon = GFX_goal_generic_fortify_city
+		x = 9
+		y = 0
+		cost = 10
+		ai_will_do = {
+			factor = 12
+		}
+		
+		completion_reward = {
+		    country_event = { id = HOL.Defense_line }
+		}
+	}
+        focus = {
+		id = HOL_Foreign_Policy
+		prerequisite = { has_country_flag = aggresive focus = HOL_Ministry_Foreign }
+		icon = GFX_goal_generic_fortify_city
+		x = 8
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 12
+		}
+		
+		completion_reward = {
+		    country_event = { id = HOL.Defense_line }
+		}
+	}
 	focus = {
 		id = HOL_Benelux_Appeasement
 		icon = GFX_goal_generic_fortify_city
-		prerequisite = { focus = HOL_Ministry_Foreign }
 		mutually_exclusive = { focus = HOL_Benelux_Unification }
 		x = 8
-		y = 1
+		y = 3
 		cost = 10
 		ai_will_do = {
 			factor = 0
@@ -186,10 +215,9 @@ focus_tree = {
 	focus = {
 		id = HOL_Benelux_Unification
 		icon = GFX_goal_generic_fortify_city
-		prerequisite = { focus = HOL_Ministry_Foreign }
 		mutually_exclusive = { focus = HOL_Benelux_Appeasement }
 		x = 10
-		y = 1
+		y = 3
 		cost = 10
 		ai_will_do = {
 			factor = 12
