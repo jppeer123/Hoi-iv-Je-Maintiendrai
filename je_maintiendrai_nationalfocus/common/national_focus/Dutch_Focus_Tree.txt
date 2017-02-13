@@ -177,7 +177,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-		    country_event = { id = HOL.Defense_line }
+		    political power = 100
 		}
 	}
         focus = {
