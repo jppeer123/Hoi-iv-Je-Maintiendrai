@@ -1,7 +1,7 @@
 state={
 	id=760
 	name="STATE_760"
-	manpower = 2438286
+	manpower = 465000
 	resources={
 		oil=4
 	}
@@ -11,12 +11,12 @@ state={
 	history={
 		owner = GER
 		buildings = {
-			infrastructure = 7
-			arms_factory = 2
-			industrial_complex = 1
-			dockyard = 2
+			infrastructure = 8
+			arms_factory = 1
+			industrial_complex = 4
+			dockyard = 3
 			241 = {
-				naval_base = 1
+				naval_base = 2
 				
 			}
 
