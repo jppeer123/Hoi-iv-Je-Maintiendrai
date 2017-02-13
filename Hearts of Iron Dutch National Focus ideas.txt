@@ -34,4 +34,5 @@ Changelog:
 0.2:
 - Zeeland is Middelburg now!
 - Namur is now Namen!
-- 
+- Added Ost-Friesland
+- Added Nord-Pas de Calais
