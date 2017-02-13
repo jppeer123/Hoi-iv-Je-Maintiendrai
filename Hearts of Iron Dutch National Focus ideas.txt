@@ -36,3 +36,58 @@ Changelog:
 - Namur is now Namen!
 - Added Ost-Friesland
 - Added Nord-Pas de Calais
+
+ Misschien een focus die vlaamderen aan nederland geeft en wallonië aan belgië en een focus waarmee je cores krijgt op heel de benelux om ze vervolgens overtenemen
+△ Prismatic △: Ik ben daar nog mee bezig
+△ Prismatic △: ik heb er al een focus/event bij toegevoegd die ervoor zorgt dat de naam van Nederland verandert naar het Verenigd Koninkrijk der Nederlanden
+Redlink: Ah cool, maar die focus waarbij je België in een keer krijgt is misschien een beetje OP
+△ Prismatic △: ja, ik voeg daar later nog een soort event chain aan toe
+Redlink: met een referendum en shit
+Redlink: en misschien een mogelijke (civil)war
+△ Prismatic △: en aan de hand van de keuzes die je maakt krijg je meer kans om België en Lux te krijgen
+△ Prismatic △: ja
+△ Prismatic △: bijvoorbeeld: België wil dat je meer nationalistisch word, maar dan worden de socialisten boos en dan krijg je weer debuffs
+Redlink: Misschien als je alleen Vlaamderen pakt krijg je niks negatiefs maar als je Wallonië pakt -10% unity ofz
+△ Prismatic △: ja
+Redlink: En misschien dat België de Disjointet government modifier krijgt die frankrijk ook heeft
+Redlink: want ze kunnen het maar niet eens worden met elkaar
+△ Prismatic △: ja
+Redlink: Iedereen spreekt daar frans
+Redlink: tenzij ze nederlands praten
+Redlink: of duits
+Redlink: ze weten het niet
+Redlink: een echte warboel zeg ik je, hup overnemen die hap
+△ Prismatic △: lol
+△ Prismatic △: en dan de Nord-Pas de Calais kwestie
+△ Prismatic △: en naar wie moet brussel
+Redlink: misschien dat brussel een apparte provincie is ingame en dat het een onafhankelijke staat kan worden
+Redlink: dat lijkt me echt heel leuk
+Redlink: met een gedemilitarizeerde zone
+Redlink: onafhankelijk burssel klinkt best realistisch
+△ Prismatic △: dat je 4 opties hebt: Annexen (Boze Walloniërs), Geven (Blije Walloniërs), Vrij Stad Brussel (Vrije Brussel, hoofdstad van Europa???), geven aan Duitser of Frankrijk voor hun 'protection' totdat Brussel zelf een keuze heeft gemaakt
+Redlink: Dat zou een hele leuke event zijn
+Redlink: Ik hou zowiezo van events met veel keuzes
+Redlink: ik vind het ook leuk hoe je dat met de forten en consumer goods hebt gedaan
+△ Prismatic △: ja, het wordt een soort van crisis waarbij je keuzes heel veel impact hebben op je land
+△ Prismatic △: ja, dat zorgt ervoor dat je nog wat af krijgt :3
+Redlink: ja dat is echt heel origineel want bij andere mods voelt het alsof het geen effect heeft op langetermijn
+△ Prismatic △: Ik vind zelf dat events sws impact moeten hebben, je hebt er al niet zoveel en sommigen zijn gewoon van: Oh hier krijg je gratis dingen, succes...
+Redlink: yup
+Redlink: Het is meestal ook heel erg OP
+Redlink: nederland moet wel veel manpower krijgen om te compenseren voor het tekort daarvan
+△ Prismatic △: ja, er komen ook focusses bij waarbij je van Engeland je oude kolonies terug kan krijgen als de duitsers steeds aggresiefer gaan doen
+Redlink: en dat zuid afrika nieuw boerrijk word en je puppet
+Redlink: een nieuwe zuid afrikaanse burgeroorlog
+△ Prismatic △: zoals de Kaap Kolonie en Ceylon, Hongkong, de Noord Indonesische eilanden
+Redlink: Yup
+△ Prismatic △: ja, het aantal vrijheid dat die kolonie heeft geeft het een andere naam
+△ Prismatic △: als ze bijvoorbeeld bijna vrij zijn, dan heten ze: Oranje Vrijstaat
+Redlink: Ik heb in mijn mod ook de cosmetic tags aangepast
+△ Prismatic △: als ze onder dat zijn dan heet het: Kaap Kolonie
+△ Prismatic △: ja, die zijn fcking cool
+△ Prismatic △: ze gaan in de volgende update ook zoiets toevoegen voor Steden en Staten
+Redlink: dat had ik gelezen ja
+Redlink: dat is zooooo vet
+△ Prismatic △: jup
+△ Prismatic △: Dan ga ik doen, dat als je Ost-Friesland hebt als nederland verandert de naam naar: Oost-Friesland
+△ Prismatic △: en Wilhelmshaven word Willemshaven
