@@ -6,9 +6,9 @@ state={
 		owner = HOL
 		add_core_of = HOL
 		buildings = {
-			infrastructure = 2
-			arms_factory = 4
-			industrial_complex = 3
+			infrastructure = 1
+			arms_factory = 5
+			industrial_complex = 2
 			dockyard = 0
 			air_base = 0
 		}
@@ -20,7 +20,7 @@ state={
 	provinces={
 		4155 13084 
 	}
-	manpower=304759
+	manpower=22704
 	buildings_max_level_factor=1.000
 	state_category=small_island
 }
