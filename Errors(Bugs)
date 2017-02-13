@@ -1,17 +1,32 @@
-[17:33:15][supplyarea.cpp:110]: Error: State "Weser-Ems" with id: 56 is already added to supply area with id: 13, adding it to supply area with id: 355 and thus overriding first supply area.
-[17:33:15][supplyarea.cpp:110]: Error: State "Pas de Calais" with id: 29 is already added to supply area with id: 19, adding it to supply area with id: 356 and thus overriding first supply area.
-[17:33:21][statehistory.cpp:299]: State Error: Trying to set province building in state that doesn't own it. Province #575 in state #29.
-[17:33:21][statehistory.cpp:262]: State Error: Trying to set invalid state building "dockyard" to state #56.
-[17:33:21][statehistory.cpp:299]: State Error: Trying to set province building in state that doesn't own it. Province #241 in state #56.
-[17:33:21][statehistory.cpp:262]: State Error: Trying to set invalid state building "dockyard" to state #754.
-[17:33:21][statehistory.cpp:299]: State Error: Trying to set province building in state that doesn't own it. Province #6325 in state #760.
-[17:34:13][statehistory.cpp:299]: State Error: Trying to set province building in state that doesn't own it. Province #575 in state #29.
-[17:34:13][statehistory.cpp:262]: State Error: Trying to set invalid state building "dockyard" to state #56.
-[17:34:13][statehistory.cpp:299]: State Error: Trying to set province building in state that doesn't own it. Province #241 in state #56.
-[17:34:13][statehistory.cpp:262]: State Error: Trying to set invalid state building "dockyard" to state #754.
-[17:34:13][statehistory.cpp:299]: State Error: Trying to set province building in state that doesn't own it. Province #6325 in state #760.
-[17:34:25][province.cpp:449]: Trying to move navy to land province with no port: 241 (Kriegsmarine)
-[17:34:25][province.cpp:449]: Trying to move navy to land province with no port: 241 (Kriegsmarine)
-[17:34:25][province.cpp:449]: Trying to move navy to land province with no port: 241 (Unterseeboots-Schule)
-[17:34:25][province.cpp:449]: Trying to move navy to land province with no port: 241 (Unterseeboots-Schule)
-[17:34:26][gamestate.cpp:4264]: 759 -  Netherlands Antilles has too many buildings : -4
+[21:09:39][nationalfocus.cpp:54]: Duplicate focus name will cause database problems: HOL_Ministry_Foreign
+[21:09:39][persistent.cpp:36]: Error: "Unexpected token: has_country_flag, near line: 185
+" in file: "common/national_focus/Dutch_Focus_Tree.txt" near line: 185
+[21:09:40][effect.cpp:225]: Invalid effect 'BEL' in events/Holland_Events.txt line : 114
+[21:09:40][persistent.cpp:36]: Error: "Unknown effect-type: BEL, near line: 114
+" in file: "events/Holland_Events.txt" near line: 114
+[21:09:40][effect.cpp:225]: Invalid effect '=' in events/Holland_Events.txt line : 114
+[21:09:40][persistent.cpp:36]: Error: "Unknown effect-type: =, near line: 114
+" in file: "events/Holland_Events.txt" near line: 114
+[21:09:40][effect.cpp:225]: Invalid effect 'LUX' in events/Holland_Events.txt line : 115
+[21:09:40][persistent.cpp:36]: Error: "Unknown effect-type: LUX, near line: 115
+" in file: "events/Holland_Events.txt" near line: 115
+[21:09:40][effect.cpp:225]: Invalid effect '=' in events/Holland_Events.txt line : 115
+[21:09:40][persistent.cpp:36]: Error: "Unknown effect-type: =, near line: 115
+" in file: "events/Holland_Events.txt" near line: 115
+[21:09:40][eventmanager.cpp:302]: Event #2700002 is set to trigger every day. events/Holland_Events.txt
+[21:09:40][effect.cpp:225]: Invalid effect 'HOL' in events/Holland_Events.txt line : 143
+[21:09:40][persistent.cpp:36]: Error: "Unknown effect-type: HOL, near line: 143
+" in file: "events/Holland_Events.txt" near line: 143
+[21:09:40][effect.cpp:225]: Invalid effect '=' in events/Holland_Events.txt line : 143
+[21:09:40][persistent.cpp:36]: Error: "Unknown effect-type: =, near line: 143
+" in file: "events/Holland_Events.txt" near line: 143
+[21:09:40][effect.cpp:225]: Invalid effect 'option' in events/Holland_Events.txt line : 145
+[21:09:40][persistent.cpp:36]: Error: "Unknown effect-type: option, near line: 145
+" in file: "events/Holland_Events.txt" near line: 204
+[21:09:40][supplyarea.cpp:110]: Error: State "Weser-Ems" with id: 56 is already added to supply area with id: 13, adding it to supply area with id: 355 and thus overriding first supply area.
+[21:09:40][supplyarea.cpp:110]: Error: State "Pas de Calais" with id: 29 is already added to supply area with id: 19, adding it to supply area with id: 356 and thus overriding first supply area.
+[21:09:43][statehistory.cpp:299]: State Error: Trying to set province building in state that doesn't own it. Province #575 in state #29.
+[21:09:43][statehistory.cpp:262]: State Error: Trying to set invalid state building "dockyard" to state #56.
+[21:09:43][statehistory.cpp:299]: State Error: Trying to set province building in state that doesn't own it. Province #241 in state #56.
+[21:09:43][statehistory.cpp:262]: State Error: Trying to set invalid state building "dockyard" to state #754.
+[21:10:07][gamestate.cpp:4264]: 759 -  Netherlands Antilles has too many buildings : -4
