@@ -39,6 +39,7 @@ Changelog:
 - Added extra names for belgium
 - Added some loading screens
 - Reworked the Dutch BeNeLux event system
+- Added a new event for the foreign ministry focus
 
  Misschien een focus die vlaamderen aan nederland geeft en wallonië aan belgië en een focus waarmee je cores krijgt op heel de benelux om ze vervolgens overtenemen
 △ Prismatic △: Ik ben daar nog mee bezig
