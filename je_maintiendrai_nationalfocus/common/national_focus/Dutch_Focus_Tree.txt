@@ -181,12 +181,77 @@ focus_tree = {
 		}
 	}
         focus = {
-		id = HOL_Foreign_Policy
-		prerequisite = { has_country_flag = aggresive focus = HOL_Ministry_Foreign }
+		id = HOL_Foreign_Policy_aggresive
+		prerequisite = { focus = HOL_Ministry_Foreign }
 		icon = GFX_goal_generic_fortify_city
 		x = 8
 		y = 1
 		cost = 10
+		available = has_country_flag = Aggresive
+		ai_will_do = {
+			factor = 12
+		}
+		
+		completion_reward = {
+		    country_event = { id = HOL.Defense_line }
+		}
+	}
+	focus = {
+		id = HOL_Foreign_Policy_defensive
+		prerequisite = { focus = HOL_Ministry_Foreign }
+		icon = GFX_goal_generic_fortify_city
+		x = 8
+		y = 1
+		cost = 10
+		available = has_country_flag = Defensive
+		ai_will_do = {
+			factor = 12
+		}
+		
+		completion_reward = {
+		    country_event = { id = HOL.Defense_line }
+		}
+	}
+	focus = {
+		id = HOL_Foreign_Policy_conservative
+		prerequisite = { focus = HOL_Ministry_Foreign }
+		icon = GFX_goal_generic_fortify_city
+		x = 8
+		y = 1
+		cost = 10
+		available = has_country_flag = Conservative
+		ai_will_do = {
+			factor = 12
+		}
+		
+		completion_reward = {
+		    country_event = { id = HOL.Defense_line }
+		}
+	}
+	focus = {
+		id = HOL_Foreign_Policy_reliable
+		prerequisite = { focus = HOL_Ministry_Foreign }
+		icon = GFX_goal_generic_fortify_city
+		x = 8
+		y = 1
+		cost = 10
+		available = has_country_flag = Reliable
+		ai_will_do = {
+			factor = 12
+		}
+		
+		completion_reward = {
+		    country_event = { id = HOL.Defense_line }
+		}
+	}
+	focus = {
+		id = HOL_Foreign_Policy_trading
+		prerequisite = { focus = HOL_Ministry_Foreign }
+		icon = GFX_goal_generic_fortify_city
+		x = 8
+		y = 1
+		cost = 10
+		available = has_country_flag = Trading
 		ai_will_do = {
 			factor = 12
 		}
