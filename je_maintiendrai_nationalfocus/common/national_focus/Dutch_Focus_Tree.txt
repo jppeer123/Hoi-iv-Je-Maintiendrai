@@ -187,7 +187,7 @@ focus_tree = {
 		x = 8
 		y = 1
 		cost = 10
-		available = has_country_flag = Aggresive
+		available = { has_country_flag = Aggresive }
 		ai_will_do = {
 			factor = 12
 		}
@@ -200,10 +200,10 @@ focus_tree = {
 		id = HOL_Foreign_Policy_defensive
 		prerequisite = { focus = HOL_Ministry_Foreign }
 		icon = GFX_goal_generic_fortify_city
-		x = 8
+		x = 10
 		y = 1
 		cost = 10
-		available = has_country_flag = Defensive
+		available = { has_country_flag = Defensive }
 		ai_will_do = {
 			factor = 12
 		}
@@ -216,10 +216,10 @@ focus_tree = {
 		id = HOL_Foreign_Policy_conservative
 		prerequisite = { focus = HOL_Ministry_Foreign }
 		icon = GFX_goal_generic_fortify_city
-		x = 8
+		x = 12
 		y = 1
 		cost = 10
-		available = has_country_flag = Conservative
+		available = { has_country_flag = Conservative }
 		ai_will_do = {
 			factor = 12
 		}
@@ -232,10 +232,10 @@ focus_tree = {
 		id = HOL_Foreign_Policy_reliable
 		prerequisite = { focus = HOL_Ministry_Foreign }
 		icon = GFX_goal_generic_fortify_city
-		x = 8
+		x = 14
 		y = 1
 		cost = 10
-		available = has_country_flag = Reliable
+		available = { has_country_flag = Reliable }
 		ai_will_do = {
 			factor = 12
 		}
@@ -248,10 +248,10 @@ focus_tree = {
 		id = HOL_Foreign_Policy_trading
 		prerequisite = { focus = HOL_Ministry_Foreign }
 		icon = GFX_goal_generic_fortify_city
-		x = 8
+		x = 16
 		y = 1
 		cost = 10
-		available = has_country_flag = Trading
+		available = { has_country_flag = Trading }
 		ai_will_do = {
 			factor = 12
 		}
