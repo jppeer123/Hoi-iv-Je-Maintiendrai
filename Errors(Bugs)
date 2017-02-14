@@ -3,3 +3,68 @@
 [21:09:43][statehistory.cpp:299]: State Error: Trying to set province building in state that doesn't own it. Province #241 in state #56.
 [21:09:43][statehistory.cpp:262]: State Error: Trying to set invalid state building "dockyard" to state #754.
 [21:10:07][gamestate.cpp:4264]: 759 -  Netherlands Antilles has too many buildings : -4
+
+
+NEEDS FIXING!!!!
+[18:08:02][statetemplate.cpp:227]: State #759 does not have a category defined.
+[18:08:05][effect.cpp:225]: Invalid effect 'political' in common/national_focus/Dutch_Focus_Tree.txt line : 180
+[18:08:05][effect.cpp:225]: Invalid effect '=' in common/national_focus/Dutch_Focus_Tree.txt line : 180
+[18:08:05][effect.cpp:162]: Error: "Unknown effect-type: political, near line: 180
+Unknown effect-type: =, near line: 180
+" in file: "common/national_focus/Dutch_Focus_Tree.txt" near line: 181
+[18:08:05][nationalfocus.cpp:54]: Duplicate focus name will cause database problems: HOL_Ministry_Foreign
+[18:08:05][trigger.cpp:355]: Invalid trigger '=' in common/national_focus/Dutch_Focus_Tree.txt line : 190
+[18:08:05][trigger.cpp:355]: Invalid trigger 'ai_will_do' in common/national_focus/Dutch_Focus_Tree.txt line : 191
+[18:08:05][trigger.cpp:355]: Invalid trigger 'completion_reward' in common/national_focus/Dutch_Focus_Tree.txt line : 195
+[18:08:05][trigger.cpp:269]: Error: "Unknown trigger-type: =, near line: 190
+Unknown trigger-type: ai_will_do, near line: 191
+Unknown trigger-type: completion_reward, near line: 195
+" in file: "common/national_focus/Dutch_Focus_Tree.txt" near line: 198
+[18:08:05][persistent.cpp:36]: Error: "Unexpected token: focus, near line: 199
+" in file: "common/national_focus/Dutch_Focus_Tree.txt" near line: 214
+[18:08:05][persistent.cpp:36]: Error: "Unexpected token: focus, near line: 215
+" in file: "common/national_focus/Dutch_Focus_Tree.txt" near line: 230
+[18:08:05][persistent.cpp:36]: Error: "Unexpected token: focus, near line: 231
+" in file: "common/national_focus/Dutch_Focus_Tree.txt" near line: 246
+[18:08:05][persistent.cpp:36]: Error: "Unexpected token: focus, near line: 247
+" in file: "common/national_focus/Dutch_Focus_Tree.txt" near line: 262
+[18:08:05][persistent.cpp:36]: Error: "Unexpected token: focus, near line: 263
+" in file: "common/national_focus/Dutch_Focus_Tree.txt" near line: 278
+[18:08:05][persistent.cpp:36]: Error: "Unexpected token: focus, near line: 280
+" in file: "common/national_focus/Dutch_Focus_Tree.txt" near line: 294
+[18:08:08][effect.cpp:162]: Error: "Unexpected token: =, near line: 117
+Unexpected token: LUX, near line: 118
+Unexpected token: =, near line: 118
+Unexpected token: add_state_core, near line: 120
+Unexpected token: add_state_core, near line: 121
+Unexpected token: add_state_core, near line: 122
+Unexpected token: add_state_core, near line: 123
+Unexpected token: add_state_core, near line: 124
+Unexpected token: add_state_core, near line: 125
+Unexpected token: add_state_core, near line: 126
+Unexpected token: add_state_core, near line: 127
+Unexpected token: add_state_core, near line: 128
+Unexpected token: add_state_core, near line: 129
+Unexpected token: add_state_core, near line: 130
+Unexpected token: add_state_core, near line: 131
+" in file: "events/Holland_Events.txt" near line: 132
+[18:08:08][effect.cpp:162]: Error: "Unexpected token: title, near line: 137
+Unexpected token: desc, near line: 138
+Unexpected token: picture, near line: 139
+Unexpected token: is_triggered_only, near line: 141
+Unexpected token: fire_only_once, near line: 143
+Unexpected token: option, near line: 145
+Unexpected token: option, near line: 150
+Unexpected token: option, near line: 157
+Unexpected token: country_event, near line: 162
+" in file: "events/Holland_Events.txt" near line: 219
+[18:08:08][eventmanager.cpp:302]: Event #2700002 is set to trigger every day. events/Holland_Events.txt
+[18:08:09][supplyarea.cpp:110]: Error: State "Weser-Ems" with id: 56 is already added to supply area with id: 13, adding it to supply area with id: 355 and thus overriding first supply area.
+[18:08:09][supplyarea.cpp:110]: Error: State "Ost-Friesland" with id: 760 is already added to supply area with id: 13, adding it to supply area with id: 355 and thus overriding first supply area.
+[18:08:09][supplyarea.cpp:110]: Error: State "Pas de Calais" with id: 29 is already added to supply area with id: 19, adding it to supply area with id: 356 and thus overriding first supply area.
+[18:08:09][supplyarea.cpp:110]: Error: State "Nord-Pas de Calais" with id: 761 is already added to supply area with id: 19, adding it to supply area with id: 356 and thus overriding first supply area.
+[18:08:15][statehistory.cpp:299]: State Error: Trying to set province building in state that doesn't own it. Province #575 in state #29.
+[18:08:15][statehistory.cpp:262]: State Error: Trying to set invalid state building "dockyard" to state #56.
+[18:08:15][statehistory.cpp:299]: State Error: Trying to set province building in state that doesn't own it. Province #241 in state #56.
+[18:08:15][statehistory.cpp:262]: State Error: Trying to set invalid state building "dockyard" to state #754.
+[18:09:27][gamestate.cpp:4264]: 759 -  Netherlands Antilles has too many buildings : -5
