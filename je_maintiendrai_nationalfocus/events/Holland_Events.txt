@@ -111,8 +111,8 @@ country_event = {
 	option = {
 		name = HOL.2.a
 		country_event = { id = HOL_News.1 }
-		BEL = country_event = { id = HOL.3 }
-		LUX = country_event = { id = HOL.4 }
+		BEL = { country_event } = { id = HOL.3 }
+		LUX = { country_event } = { id = HOL.4 }
 		add_state_core = 6
 		add_state_core = 8
 		add_state_core = 34
@@ -201,3 +201,4 @@ country_event = {
 		name = HOL.11.e
 		set_country_flag  = Trading
 		
+		#####You found PEPE!!!! Give yourself a pat on the back!######
