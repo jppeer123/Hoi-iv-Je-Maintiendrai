@@ -104,9 +104,9 @@ country_event = {
 	desc = HOL.2.d
 	picture = GFX_report_event_worker_protests
 	
-	is_triggered_only = no
+	is_triggered_only = yes
 
-	fire_only_once = no
+	fire_only_once = yes
 	
 	trigger = {
 		tag = HOL
@@ -114,8 +114,8 @@ country_event = {
 	}
 	
 	option = {
-		BEL = { country_event } = { id = HOL.3 }
-		LUX = { country_event } = { id = HOL.4 }
+		BEL = { country_event = { id = HOL.3 } }
+		LUX = { country_event = { id = HOL.4 } }
 
 		add_state_core = 6
 		add_state_core = 8
