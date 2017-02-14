@@ -22,5 +22,5 @@ state={
 	}
 	manpower=22704
 	buildings_max_level_factor=1.000
-	state_category=sparse__urban_region
+	state_category=sparse_urban_region
 }
