@@ -117,18 +117,18 @@ country_event = {
 		BEL = { country_event = { id = HOL.3 } }
 		LUX = { country_event = { id = HOL.4 } }
 
-		add_state_core = 6
-		add_state_core = 8
-		add_state_core = 34
-		add_state_core = 750
-		add_state_core = 751
-		add_state_core = 752
-		add_state_core = 753
-		add_state_core = 754
-		add_state_core = 755
-		add_state_core = 756
-		add_state_core = 757
-		add_state_core = 758
+		#add_state_core = 6
+		#add_state_core = 8
+		#add_state_core = 34
+		#add_state_core = 750
+		#add_state_core = 751
+		#add_state_core = 752
+		#add_state_core = 753
+		#add_state_core = 754
+		#add_state_core = 755
+		#add_state_core = 756
+		#add_state_core = 757
+		#add_state_core = 758
 	}
 }
 
@@ -144,11 +144,25 @@ country_event = {
 	
 	option = {
 		name = HOL.3.a
+		ai_chance = { factor = 20 }
 		HOL = country_event = { id = HOL.6 }
+                random_list = {
+			60 = {
+			    HOL = {
+				country_event = { days = 1 id = japan.3 }
+				}
+			 }
+			 40 = {
+			    HOL = {
+			        country_event = { days = 1 id = japan.4 }
+					}
+				}
+			}
 		}
 		
 	option = {
 	        name = HOL.3.b
+		ai_chance = { factor = 34 }
 		HOL = country_event = { id = HOL.5 }
 		add_political_power = -90
 		add_state_core = 749
@@ -156,6 +170,7 @@ country_event = {
 		
 	option = {
 	        name = HOL.3.c
+		ai_chance = { factor = 46 }
 		HOL = country_event = { id = HOL.7 }
 		}
 		
@@ -171,11 +186,13 @@ country_event = {
 	
 	option = {
 		name = HOL.4.a
+		ai_chance = { factor = 30 }
 		HOL = country_event = { id = HOL.8 }
 		}
 		
 	option = {
 	        name = HOL.4.b
+		ai_chance = { factor = 70 }
 		HOL = country_event = { id = HOL.9 }
 		}
 		
