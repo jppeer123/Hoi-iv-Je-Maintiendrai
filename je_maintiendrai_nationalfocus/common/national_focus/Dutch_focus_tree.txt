@@ -1,5 +1,5 @@
 focus_tree = {
-	id = Je_Maintiendrai
+	id = holland_focus
 	country = {
 		factor = 0
 		modifier = {
@@ -14,7 +14,14 @@ focus_tree = {
 		cost = 10,00
 		x = 4
 		y = 0
+		
+		completion_reward = {
+		    swap_ideas = {
+				remove_idea = HOL_Great_Depression
+				add_idea = 	HOL_Great_Depression_1
+			}
 
+              }
 	}
 	focus = {
 		id = HOL_ministry_foreign
@@ -22,7 +29,11 @@ focus_tree = {
 		cost = 0,00
 		x = 13
 		y = 0
-
+		
+		completion_reward = {
+		    country_event = { id = HOL.Defense_line }
+		    country_event = { id = HOL.11 }
+                }
 	}
 	focus = {
 		id = HOL_economic_growth
