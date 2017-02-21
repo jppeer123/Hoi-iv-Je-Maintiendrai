@@ -1,0 +1,573 @@
+focus_tree = {
+	id = Je_Maintiendrai
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = HOL
+		}
+	}
+	default = no
+	focus = {
+		id = HOL_recovery
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 10,00
+		x = 4
+		y = 0
+
+	}
+	focus = {
+		id = HOL_ministry_foreign
+		icon = GFX_goal_generic_fortify_city
+		cost = 0,00
+		x = 13
+		y = 0
+
+	}
+	focus = {
+		id = HOL_economic_growth
+		icon = GFX_goal_generic_construct_civilian
+		cost = 0,00
+		prerequisite = {
+			focus = HOL_recovery
+		}
+		x = 1
+		y = 1
+
+	}
+	focus = {
+		id = HOL_invest_private
+		icon = GFX_goal_generic_construction
+		cost = 0,00
+		prerequisite = {
+			focus = HOL_economic_growth
+		}
+		x = 1
+		y = 2
+
+	}
+	focus = {
+		id = HOL_nationalise_ns
+		icon = GFX_goal_generic_construct_infrastructure
+		cost = 0,00
+		prerequisite = {
+			focus = HOL_invest_private
+		}
+		x = 1
+		y = 3
+
+	}
+	focus = {
+		id = HOL_invest_shell
+		icon = GFX_goal_generic_intelligence_exchange
+		cost = 0,00
+		prerequisite = {
+			focus = HOL_recovery
+		}
+		mutually_exclusive = {
+			focus = HOL_nationalise_shell
+		}
+		x = 3
+		y = 1
+
+	}
+	focus = {
+		id = HOL_shell_colonies
+		icon = GFX_goal_generic_oil_refinery
+		cost = 0,00
+		prerequisite = {
+			focus = HOL_invest_shell
+		}
+		x = 3
+		y = 2
+
+	}
+	focus = {
+		id = HOL_shell_priviliges
+		icon = GFX_goal_generic_consumer_goods
+		cost = 0,00
+		prerequisite = {
+			focus = HOL_shell_colonies
+		}
+		x = 3
+		y = 3
+
+	}
+	focus = {
+		id = HOL_nationalise_shell
+		icon = GFX_goal_tfv_strengthen_commonwealth_ties
+		cost = 0,00
+		prerequisite = {
+			focus = HOL_recovery
+		}
+		mutually_exclusive = {
+			focus = HOL_invest_shell
+		}
+		x = 5
+		y = 1
+
+	}
+	focus = {
+		id = HOL_shell_expand
+		icon = GFX_goal_generic_construction2
+		cost = 0,00
+		prerequisite = {
+			focus = HOL_nationalise_shell
+		}
+		x = 5
+		y = 2
+
+	}
+	focus = {
+		id = HOL_shell_expand_2
+		icon = GFX_goal_continuous_non_factory_construct
+		cost = 0,00
+		prerequisite = {
+			focus = HOL_shell_expand
+		}
+		x = 5
+		y = 3
+
+	}
+	focus = {
+		id = HOL_recovery_2
+		icon = GFX_focus_generic_the_giant_wakes
+		cost = 0,00
+		prerequisite = {
+			focus = HOL_recovery
+		}
+		x = 7
+		y = 1
+
+	}
+	focus = {
+		id = HOL_recovery_3
+		icon = GFX_goal_continuous_boost_freedom
+		cost = 0,00
+		prerequisite = {
+			focus = HOL_recovery_2
+		}
+		x = 7
+		y = 2
+
+	}
+	focus = {
+		id = HOL_invest_university
+		icon = GFX_goal_generic_scientific_exchange
+		cost = 0,00
+		prerequisite = {
+			focus = HOL_recovery_3
+		}
+		x = 7
+		y = 3
+
+	}
+	focus = {
+		id = HOL_rotterdam_trading_world
+		icon = GFX_goal_generic_positive_trade_relations
+		cost = 0,00
+		prerequisite = {
+			focus = HOL_nationalise_ns
+			focus = HOL_shell_priviliges
+			focus = HOL_shell_expand_2
+			focus = HOL_invest_university
+		}
+		mutually_exclusive = {
+			focus = HOL_rotterdam_capital_eu
+		}
+		x = 3
+		y = 4
+
+	}
+	focus = {
+		id = HOL_rotterdam_capital_eu
+		icon = GFX_goal_generic_navy_battleship
+		cost = 0,00
+		prerequisite = {
+			focus = HOL_nationalise_ns
+			focus = HOL_shell_priviliges
+			focus = HOL_shell_expand_2
+			focus = HOL_shell_expand_2
+			focus = HOL_invest_university
+		}
+		mutually_exclusive = {
+			focus = HOL_rotterdam_trading_world
+		}
+		x = 5
+		y = 4
+
+	}
+	focus = {
+		id = HOL_dutch_trading
+		icon = GFX_goal_generic_navy_doctrines_tactics
+		cost = 0,00
+		prerequisite = {
+			focus = HOL_rotterdam_trading_world
+			focus = HOL_rotterdam_capital_eu
+		}
+		x = 4
+		y = 5
+
+	}
+	focus = {
+		id = HOL_foreign_policy_aggresive
+		icon = GFX_goal_generic_attack_allies
+		cost = 0,00
+		prerequisite = {
+			focus = HOL_ministry_foreign
+		}
+		mutually_exclusive = {
+			focus = HOL_foreign_policy_defensive
+			focus = HOL_foreign_policy_conservative
+			focus = HOL_foreign_policy_defensive
+			focus = HOL_foreign_policy_reliable
+			focus = HOL_foreign_policy_trading
+			focus = HOL_foreign_policy_trading
+			focus = HOL_foreign_policy_defensive
+			focus = HOL_foreign_policy_conservative
+			focus = HOL_foreign_policy_reliable
+			focus = HOL_foreign_policy_trading
+		}
+		x = 9
+		y = 1
+
+	}
+	focus = {
+		id = HOL_foreign_policy_defensive
+		icon = GFX_goal_continuous_def_against_influence
+		cost = 0,00
+		prerequisite = {
+			focus = HOL_ministry_foreign
+		}
+		mutually_exclusive = {
+			focus = HOL_foreign_policy_aggresive
+			focus = HOL_foreign_policy_aggresive
+			focus = HOL_foreign_policy_aggresive
+			focus = HOL_foreign_policy_conservative
+			focus = HOL_foreign_policy_reliable
+			focus = HOL_foreign_policy_trading
+			focus = HOL_foreign_policy_conservative
+			focus = HOL_foreign_policy_reliable
+			focus = HOL_foreign_policy_trading
+			focus = HOL_foreign_policy_trading
+		}
+		x = 11
+		y = 1
+
+	}
+	focus = {
+		id = HOL_foreign_policy_conservative
+		icon = GFX_focus_generic_home_defense
+		cost = 0,00
+		prerequisite = {
+			focus = HOL_ministry_foreign
+		}
+		mutually_exclusive = {
+			focus = HOL_foreign_policy_aggresive
+			focus = HOL_foreign_policy_defensive
+			focus = HOL_foreign_policy_defensive
+			focus = HOL_foreign_policy_aggresive
+			focus = HOL_foreign_policy_reliable
+			focus = HOL_foreign_policy_trading
+			focus = HOL_foreign_policy_reliable
+			focus = HOL_foreign_policy_trading
+		}
+		x = 13
+		y = 1
+
+	}
+	focus = {
+		id = HOL_foreign_policy_reliable
+		icon = GFX_goal_continuous_def_against_influence
+		cost = 0,00
+		prerequisite = {
+			focus = HOL_ministry_foreign
+		}
+		mutually_exclusive = {
+			focus = HOL_foreign_policy_aggresive
+			focus = HOL_foreign_policy_defensive
+			focus = HOL_foreign_policy_conservative
+			focus = HOL_foreign_policy_conservative
+			focus = HOL_foreign_policy_defensive
+			focus = HOL_foreign_policy_aggresive
+			focus = HOL_foreign_policy_trading
+			focus = HOL_foreign_policy_trading
+		}
+		x = 15
+		y = 1
+
+	}
+	focus = {
+		id = HOL_foreign_policy_trading
+		icon = GFX_goal_generic_positive_trade_relations
+		cost = 0,00
+		prerequisite = {
+			focus = HOL_ministry_foreign
+		}
+		mutually_exclusive = {
+			focus = HOL_foreign_policy_aggresive
+			focus = HOL_foreign_policy_aggresive
+			focus = HOL_foreign_policy_defensive
+			focus = HOL_foreign_policy_conservative
+			focus = HOL_foreign_policy_reliable
+			focus = HOL_foreign_policy_reliable
+			focus = HOL_foreign_policy_conservative
+			focus = HOL_foreign_policy_defensive
+			focus = HOL_foreign_policy_defensive
+			focus = HOL_foreign_policy_aggresive
+		}
+		x = 17
+		y = 1
+
+	}
+	focus = {
+		id = HOL_benelux_appeasement
+		icon = GFX_goal_generic_national_unity
+		cost = 0,00
+		prerequisite = {
+			focus = HOL_foreign_policy_aggresive
+			focus = HOL_foreign_policy_defensive
+			focus = HOL_foreign_policy_conservative
+			focus = HOL_foreign_policy_reliable
+			focus = HOL_foreign_policy_trading
+		}
+		mutually_exclusive = {
+			focus = HOL_benelux_unification
+		}
+		x = 11
+		y = 2
+
+	}
+	focus = {
+		id = HOL_benelux_economic
+		icon = GFX_goal_generic_intelligence_exchange
+		cost = 0,00
+		prerequisite = {
+			focus = HOL_benelux_appeasement
+		}
+		prerequisite = {
+			focus = HOL_recovery_3
+		}
+		x = 9
+		y = 3
+
+	}
+	focus = {
+		id = HOL_benelux_trading
+		icon = GFX_goal_generic_neutrality_focus
+		cost = 0,00
+		prerequisite = {
+			focus = HOL_benelux_appeasement
+		}
+		x = 11
+		y = 3
+
+	}
+	focus = {
+		id = HOL_benelux_defense_alliance
+		icon = GFX_goal_molotov_ribbentrop_pact
+		cost = 0,00
+		prerequisite = {
+			focus = HOL_benelux_economic
+		}
+		prerequisite = {
+			focus = HOL_benelux_trading
+		}
+		mutually_exclusive = {
+			focus = HOL_allies_join
+		}
+		x = 10
+		y = 4
+
+	}
+	focus = {
+		id = HOL_benelux_colonial_claims
+		icon = GFX_focus_RAJ_all_india_forward_bloc
+		cost = 0,00
+		prerequisite = {
+			focus = HOL_benelux_defense_alliance
+		}
+		x = 7
+		y = 5
+
+	}
+	focus = {
+		id = HOL_benelux_asian_claims
+		icon = GFX_focus_RAJ_two_nation_theory
+		cost = 0,00
+		prerequisite = {
+			focus = HOL_benelux_colonial_claims
+		}
+		x = 6
+		y = 6
+
+	}
+	focus = {
+		id = HOL_benelux_african_claims
+		icon = GFX_goal_generic_position_armies
+		cost = 0,00
+		prerequisite = {
+			focus = HOL_benelux_colonial_claims
+		}
+		x = 8
+		y = 6
+
+	}
+	focus = {
+		id = HOL_benelux_unification
+		icon = GFX_goal_generic_forceful_treaty
+		cost = 0,00
+		prerequisite = {
+			focus = HOL_foreign_policy_aggresive
+			focus = HOL_foreign_policy_defensive
+			focus = HOL_foreign_policy_reliable
+			focus = HOL_foreign_policy_conservative
+			focus = HOL_foreign_policy_trading
+		}
+		mutually_exclusive = {
+			focus = HOL_benelux_appeasement
+		}
+		x = 16
+		y = 2
+
+	}
+	focus = {
+		id = HOL_benelux_one_crown_policy
+		icon = GFX_goal_tfv_strengthen_commonwealth_ties
+		cost = 0,00
+		prerequisite = {
+			focus = HOL_benelux_appeasement
+			focus = HOL_benelux_unification
+		}
+		mutually_exclusive = {
+			focus = HOL_benelux_no_crown_policy
+		}
+		x = 13
+		y = 3
+
+	}
+	focus = {
+		id = HOL_benelux_no_crown_policy
+		icon = GFX_goal_tfv_sever_ties_with_uk
+		cost = 0,00
+		prerequisite = {
+			focus = HOL_benelux_unification
+			focus = HOL_benelux_appeasement
+		}
+		mutually_exclusive = {
+			focus = HOL_benelux_one_crown_policy
+		}
+		x = 15
+		y = 3
+
+	}
+	focus = {
+		id = HOL_allies_join
+		icon = GFX_goal_tfv_can_compromise_with_quebec
+		cost = 0,00
+		prerequisite = {
+			focus = HOL_benelux_economic
+		}
+		prerequisite = {
+			focus = HOL_benelux_trading
+			focus = HOL_benelux_one_crown_policy
+			focus = HOL_benelux_no_crown_policy
+		}
+		mutually_exclusive = {
+			focus = HOL_benelux_defense_alliance
+		}
+		x = 14
+		y = 4
+
+	}
+	focus = {
+		id = HOL_benelux_old_claims
+		icon = GFX_goal_generic_position_armies
+		cost = 0,00
+		prerequisite = {
+			focus = HOL_benelux_defense_alliance
+			focus = HOL_allies_join
+		}
+		x = 11
+		y = 5
+
+	}
+	focus = {
+		id = HOL_allies_push_claims
+		icon = GFX_focus_RAJ_british investors
+		cost = 0,00
+		prerequisite = {
+			focus = HOL_benelux_old_claims
+		}
+		mutually_exclusive = {
+			focus = HOL_benelux_push_claims_LoN
+		}
+		x = 12
+		y = 8
+
+	}
+	focus = {
+		id = HOL_allies_industry
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 0,00
+		prerequisite = {
+			focus = HOL_allies_join
+		}
+		x = 13
+		y = 5
+
+	}
+	focus = {
+		id = HOL_benelux_push_claims_LoN
+		icon = GFX_focus_generic_diplomatic_treaty
+		cost = 0,00
+		prerequisite = {
+			focus = HOL_benelux_old_claims
+		}
+		prerequisite = {
+			focus = HOL_benelux_american_claims
+		}
+		mutually_exclusive = {
+			focus = HOL_allies_push_claims
+		}
+		x = 9
+		y = 8
+
+	}
+	focus = {
+		id = HOL_benelux_american_claims
+		icon = GFX_goal_generic_territory_or_war
+		cost = 0,00
+		prerequisite = {
+			focus = HOL_benelux_asian_claims
+		}
+		prerequisite = {
+			focus = HOL_benelux_african_claims
+		}
+		x = 7
+		y = 7
+
+	}
+	focus = {
+		id = HOL_benelux_industry_1
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 0,00
+		prerequisite = {
+			focus = HOL_benelux_push_claims_LoN
+		}
+		x = 6
+		y = 9
+
+	}
+	focus = {
+		id = HOL_united_political_crisis
+		icon = GFX_goal_generic_forceful_treaty
+		cost = 0,00
+		prerequisite = {
+			focus = HOL_benelux_unification
+		}
+		x = 17
+		y = 3
+
+	}
+}
